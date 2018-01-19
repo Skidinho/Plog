@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Arvo|Oxygen|Roboto+Condensed');
+@font-face {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*cabeçalho*/
+div#interface{
+    top:0;
+    left:0;
+    width:100%;
+    background: linear-gradient(to bottom right,#1e2954,#30407d);
+    position: fixed;
+    height: 90px;
+    z-index=1000;
+}
+.wrapWithBackgroundImage a{
+    display:block;
+    top:0.6%;
+    left:12%;
+    background: url("../imagens/plog-logo.png")  no-repeat ;
+    position: fixed;
+    height: 75px;
+    width:107px;
+}
+
+    /* Menu */
+nav#menu{
+    display:block;
+}
+nav#menu ul{
+    font-family: "Oxygen",sans-serif;
+    position:relative;
+    font-size: 110%;
+    margin: 0.7%;
+    left:50%;
+}
+nav#menu li{
+    color: #a0a1a3;
+    display:inline-table;
+    padding:1%;
+}
+nav#menu li:hover{
+    transition:color 0.5s;
+    color:#ffffff;
+    }
+
+
+/*body*/
+body{
+    background-image: url("../imagens/Backgroudão.jpg");
+    background-attachment:fixed;
+}
+
+
+/*main*/
+main{
+    display: block;
+    z-index: -1;
+    position:absolute;
+    top:90px;
+    left:11%;
+    background-color:#060811;
+    width:78%;
+    color: #ffffff;
+}
+div#noticias {
+    margin-left: 5%;
+    margin-top:5%;
+    text-align: justify;
+    font-size:100%;
+}
+
+main h2{
+    font-family: "Oxygen",sans-serif;
+    font-weight:bold;
+    font-size:%;
+}
+main h4{
+    font-family: "Oxygen",sans-serif;
+    font-weight:bold;
+    font-size:70%;
+    top:-0.3%
+}
+
+
+/* Noticia 1*/
+figcaption#link1 p{
+margin-top: -10px;
+}
+figcaption#link1 a{
+    font-weight: bolder;
+    margin-top: -70px;
+    margin-left:30px;
+    white-space: nowrap;
+    position:absolute;
+    font-family:"Roboto Condensed",sans-serif;
+    font-size: 20px%;
+    color: #000;
+    text-decoration: none;
+}
+
